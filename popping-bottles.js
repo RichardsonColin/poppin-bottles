@@ -27,9 +27,13 @@ function bottleReturn(num) {
     }
   }
   console.log(`TOTAL BOTTLES: ${totalBottles}`);
-  console.log('\n--TOTAL EARNED--');
+  console.log('\n--TOTAL EARNED THROUGH RECYCLING--');
   console.log(`  BOTTLES: ${bottleRecyclingBottles}`);
   console.log(`     CAPS: ${capRecyclingBottles}`);
+  console.log(`\n--REMAINING ITEMS--`);
+  console.log(`  BOTTLES: ${emptyBottles}`);
+  console.log(`     CAPS: ${bottleCaps}`);
+
 }
 
 bottleReturn(arg);
